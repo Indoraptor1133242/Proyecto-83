@@ -1,0 +1,62 @@
+<html>
+    <head>
+<title>Dibuja y Colorea</title>
+
+<link  rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section id="opciones">
+        <img id="restablecer" src="restaurar.png" onclick="reset()" class="options">
+        <br>
+        <img id="punta-gruesa" src="gruesa.png" onclick="grueso()" class="options">
+        <br>
+        <img id="punta-mediana" src="mediana.png" onclick="media()" class="options">
+        <br>
+        <img id="punta-fina" src="fina.png" onclick="fina()" class="options">
+        </section>
+        <center>
+        <section id="pinturas" class="container">
+        <section id="purple" class="clasificacion">
+        <img  id="purpura" src="morado.png" class="representante" onclick="morado()">
+        <h2 id="color-m" class="cual">Purple</h2></section>
+        <section id="blue" class="clasificacion">
+        <img id="azul" src="azul.png" class="representante" onclick="azul()">
+        <h2 id="color-a" class="cual">Blue</h2></section>
+        <section id="pink" class="clasificacion">
+        <img id="rosa" src="rosa.png" class="representante" onclick="rosa()">
+        <h2 id="color-r" class="cual">Pink</h2></section>
+        <section id="light-blue" class="clasificacion">
+        <img id="azul-bajo" src="claro.png" class="representante"  onclick="claro()">
+        <h2 id="color-ab" class="cual">Light Blue</h2></section>
+        <section id="green" class="clasificacion">
+        <img id="verde" src="verde.png" class="representante" onclick="verde()">
+        <h2 id="color-ve" class="cual">Green</h2></section>
+        <section id="dark-green" class="clasificacion">
+        <img id="verde-fuerte" src="cesped.png" class="representante" onclick="fuerte()"> 
+        <h2 id="color-vf" class="cual">Dark Green</h2></section>
+        <section id="yellow" class="clasificacion">
+        <img id="amarillo" src="amarillo.png" class="representante" onclick="amarillo()">
+        <h2 id="color-am" class="cual">Yellow</h2></section>
+        <section id="black" class="clasificacion">
+        <img id="negro" src="negro.png" class="representante" onclick="negro()">
+        <h2 id="color-neg" class="cual">Black</h2></section>
+        <section id="gray" class="clasificacion">
+        <img id="gris" src="gris.png" class="representante" onclick="gris()">
+        <h2 id="color-gs" class="cual">Gray</h2></section>
+        <section id="brown" class="clasificacion">
+        <img id="cafe" src="cafe.png" class="representante" onclick="cafe()">
+        <h2 id="color-ca" class="cual">Brown</h2></section>
+        <section id="red" class="clasificacion">
+        <img id="rojo" src="rojo.png" class="representante" onclick="rojo()">
+        <h2 id="color-roj" class="cual">Red</h2></section>
+        <section id="orange" class="clasificacion">
+        <img id="naranja" src="naranja.png" class="representante" onclick="naranja()">
+        <h2 id="color-nara" class="cual">Orange</h2></section></section></center>
+        <canvas id="myCanvas" height="1400" width="1100" "></canvas>
+        
+        <script src="main.js"></script>
+
+        </section>
+
+      </body>
+</html>

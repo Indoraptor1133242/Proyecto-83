@@ -1,0 +1,78 @@
+.representante{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: -85px;
+}
+.cual{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: darkgray;
+    margin-left: 90px;
+    margin-top: -50px;
+    
+}
+.options{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 290px;
+}
+#pinturas{
+    margin-top: -1630px;
+    margin-right: 140%;
+    margin-left: 25%;
+   
+}
+#opciones{
+    background-image:url(colorful.jpeg);
+    padding-left:40px ;
+    padding-right: 40px;
+    width: 180px;
+    height: 1600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 60px;
+}
+.clasificacion{
+    background-color: whitesmoke;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    height: 100px;
+    
+}
+#myCanvas{
+    background-color: ghostwhite;
+    border-radius: 60px;
+    margin-left: 800px;
+    margin-top: -1520px;
+    margin-right: 120px;
+   border-width: 5px;
+   border-style: dashed;
+    border-color: lightgrey;
+}
+
+#tit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin-left: 130px;
+    margin-top: -95px;
+}
+#dato{
+    border-width: 0px;
+    background-color: ghostwhite;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
